@@ -1,84 +1,48 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <title>Tela Inicial</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Lucas Oliveira">    
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="">
-    
-    <style>
-      body {
-      padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      background-image: url("img/fundo.jpg");
-      background-repeat: no-repeat;
-      background-size: 100%;
-      }
-    </style>
-    
-    <style>    
-    h1{
-        font-family: Corbel;
-        font-size: 50px;
-        text-align: center;
-        color: white;
-      }
-    </style>
-    
-    <style>    
-    h2{
-        font-family: Corbel;
-        font-size: 25px;
-        text-align: center;
-        color: white;
-      }
-    </style>
-
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-    <link rel="shortcut icon" href="img/favicon.ico">  
-    
-  </head>
-
+<head>
+  <title>Contato</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">  
+  <link rel="stylesheet" href="css/estilo.css"> 
+  <link rel="shortcut icon" href="img/favicon.ico">  
+  <script src="js/jquery-1.12.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>  
   <body>
+    <!-- First Container -->
+    <div class="container-fluid bg-1 text-center img-responsive">
+      <h2>Quem sou eu?</h2><br />
+      <img src="img/retrato.png" class="img-responsive img-circle margin" alt="retrato" width="350" height="350">
+      <h3>Sou um amante da programação</h3>
+    </div>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">FastConv</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">Sobre</a></li>
-              <li><a href="contato.php">Contato</a></li>
-            </ul>
-          </div>
-        </div>
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center">
+      <h3 class="margin">O que eu faço?</h3>
+      <p>Atualmente sou estudante de Análise e Desenvolvimento de Sistemas, o profissional desta área é responsável por desenvolver, analisar, projetar, implementar e atualizar sistemas de informação. Trabalho com desenvolvimento na NSC Business Technology</p>
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center">    
+      <h3 class="margin">Onde você pode me encontrar?</h3><br>
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <img src="img/email.png" class="img-responsive margin" width="190" height="190" alt="email">
+          <p>Entre em contato comigo através do endereço <strong>lucas_c10f@hotmail.com</strong></p><br>      
+        </div>    
       </div>
+      <a href="index.php" class="btnTopo btn-info button">
+        <span class="glyphicon glyphicon-search btnTopo"></span>Topo
+      </a>
     </div>
-  <br />
-    <br />
-      <br />
-        <br />
-    <div class="container">
 
-      <h1><strong>Uma nova maneira de gerenciar sua festa</strong></h1>      
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+      <p>Lucas Oliveira de Jesus<br /><small>2018<small></p> 
+    </footer>
 
-    </div> 
-    <br />
-    <br />
-    <br />
-    <div>    
-      <h2>Aqui você descobrirá uma forma tecnológica de administrar seus eventos,<br> além de proporcionar uma comodidade maior aos seus convidados.</h2>
-    </div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -95,6 +59,5 @@
     <script src="../assets/js/bootstrap-collapse.js"></script>
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
-
   </body>
 </html>
